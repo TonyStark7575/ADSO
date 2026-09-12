@@ -675,3 +675,45 @@ textarea.form-group-custom__input {
 .filter-pill--entregado {
   background-color: #28a745;
 }
+
+/* ========== BOTÓN COMPACTO (modificador de btn-primary-custom) ========== */
+.btn-primary-custom--sm {
+  width: auto;
+  max-width: none;
+  display: block;
+  margin: 12px auto 0;
+  padding: 8px 20px;
+}
+
+/* ========== FILA DE 2 CAMPOS (para Producto + Cantidad) ========== */
+.form-row {
+  display: flex;
+  gap: 12px;
+}
+
+.form-row .form-group-custom {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+/* ========== SUBSECCIÓN DENTRO DE UNA form-card ========== */
+.subsection {
+  margin: 20px 0;
+}
+
+.subsection__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-texto);
+  margin-bottom: 12px;
+}
+
+/* ========== BADGE "Enviado" (reutiliza color ya existente en la paleta) ========== */
+.badge-status--enviado {
+  background-color: var(--color-primario-claro);
+}
+
+/* ========== ALINEAR BOTONES A LA DERECHA (modificador de form-actions) ========== */
+.form-actions--end {
+  justify-content: flex-end;
+}
